@@ -2,14 +2,18 @@ import { Link } from "react-scroll";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import { menuLinks, githubLink, linkedinLink } from "../../utils/data";
-import { downloadFile } from "../../utils/downloadFile";
+import {
+  menuLinks,
+  githubLink,
+  linkedinLink,
+  portfolioLink,
+} from "../../utils/data";
 
 const Footer = () => (
   <div className="max-w-[1300px] px-10 mx-auto pt-8 text-sm md:text-lg">
     <div className="flex justify-between items-center">
       <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
-        <motion.button
+        <motion.a
           className="secondBtn"
           whileHover={{
             backgroundColor: "#0D2F3F",
@@ -17,10 +21,11 @@ const Footer = () => (
             color: "#F8F7F1",
           }}
           whileTap={{ scale: 0.95 }}
-          onClick={downloadFile}
+          target="_blank"
+          href={portfolioLink}
         >
           我的履歷
-        </motion.button>
+        </motion.a>
         <div className="flex flex-row gap-4 text-primary text-4xl md:text-5xl">
           <motion.a
             target="_blank"

@@ -20,7 +20,7 @@ const About = () => (
           viewport={{ once: false, amount: 0.3 }}
           className="flex-1"
         >
-          <div className="text-xl md:text-2xl text-justify text-mainBg tracking-[2px]">
+          <div className="text-lg md:text-2xl text-justify text-mainBg tracking-[2px]">
             {aboutContent.map((para, index) => (
               <React.Fragment key={index}>
                 <div className="indent-11 md:indent-14 leading-relaxed md:leading-loose">

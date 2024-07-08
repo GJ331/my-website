@@ -53,13 +53,13 @@ const Work = () => (
                   <h3 className="text-xl md:text-2xl text-content font-semibold mb-2">
                     {project.title}
                   </h3>
-                  <div>
+                  <div className="ml-0 md:ml-7">
                     {project.detail
                       .split("\n")
                       .filter((line) => line.trim())
                       .map((line, k) => (
                         <p
-                          className="text-lg md:text-xl text-content md:tracking-wide leading-relaxed mb-3"
+                          className="text-md md:text-xl text-content md:tracking-wide leading-relaxed mb-3"
                           key={`${i}-${j}-${k}`}
                         >
                           {line.trim()}
@@ -90,7 +90,7 @@ const Work = () => (
 
           <div className="flex-1 mt-4">
             <div className="rounded-full w-5 h-5 bg-circleGreen" />
-            <div className="mt-[80rem] sm:mt-[45rem] md:mt-[50rem] lg:mt-[46rem]">
+            <div className="mt-[80rem] sm:mt-[45rem] md:mt-[50rem] lg:mt-[59rem] 2xl::mt-[60rem]">
               <div className="rounded-full w-5 h-5 bg-circleRed" />
             </div>
           </div>

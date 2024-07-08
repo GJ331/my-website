@@ -117,27 +117,27 @@ export const workExp = [
         title: "► LuzMi 微服務框架管理 - 前/後平台 (已上線)",
         detail: `
           開發初期 (前端PG)
-          a. 參與功能流程的規劃，並產出前端UI設計彩稿。
-          b. 與其他PG協作，共同開發前/後台畫面及功能。
-          c. 開發團隊採用Scrum敏捷式開發，以Jira作為專案管理。
+          (1) 參與功能流程的規劃，並產出前端UI設計彩稿。
+          (2) 與其他PG協作，共同開發前/後台畫面及功能。
+          (3) 開發團隊採用Scrum敏捷式開發，以Jira作為專案管理。
     
           開發中後期 (前端負責人)
-          a. 與SA討論新功能開發可行性。
-          b. 與資深PG協作，導入 Jenkins 自動化部屬專案。
-          c. 因應大量且重複的功能，重構並整合組件，建立共用底層的模塊機制。
+          (1) 與SA討論新功能開發可行性。
+          (2) 與資深PG協作，導入 Jenkins 自動化部屬專案。
+          (3) 因應大量且重複的功能，重構並整合組件，建立共用底層的模塊機制。
         `,
       },
       {
         title: "► 外籍移工小額匯兌 - 後台管理系統 (已上線)",
         detail: `
           開發初期 (前端PG)
-          a. 與資深PG協作，開發後台畫面功能。
+          (1) 與資深PG協作，開發後台畫面功能。
     
           開發中後期 (前端駐點負責人)
-          a. 與PM會同客戶共同討論功能異動問題。
-          b. 中期參與新功能規劃，並提出前端解決辦法。
-          c. 後期導入SonarQube進行程式碼檢測，並使用Jenkins自動化部屬。
-          d. 優化底層共用元件，減少重複性程式碼。
+          (1) 與PM會同客戶共同討論功能異動問題。
+          (2) 中期參與新功能規劃，並提出前端解決辦法。
+          (3) 後期導入SonarQube進行程式碼檢測，並使用Jenkins自動化部屬。
+          (4) 優化底層共用元件，減少重複性程式碼。
         `,
       },
     ],
@@ -153,9 +153,9 @@ export const workExp = [
       {
         title: "► iWow愛挖寶 - Landing Page (已上線)",
         detail: `
-          a. 與企劃、UI設計師討論畫面呈現。
-          b. 負責網頁切版、RWD。
-          c. 因應以往使用版本繁雜，針對不必要的程式碼進行重新建構。
+          (1) 與企劃、UI設計師討論畫面呈現。
+          (2) 負責網頁切版、RWD。
+          (3) 因應以往使用版本繁雜，針對不必要的程式碼進行重新建構。
         `,
       },
     ],
@@ -175,14 +175,14 @@ export const projectExp = [
       "Angular 12、PrimeNg、Scss、TypeScript、Rxjs、Quill.js、Ngx-highlightjs",
     issues: [
       {
-        question: "前後端團隊首次合作，初期討論雜亂不清楚，耗費大量時間溝通",
+        question: "前後端團隊首次合作，初期討論項目雜亂不清楚，經常耗費大量時間溝通",
         answer:
-          "在Jira專案管理基礎上，有提出-制式命名、問題詳述等方法，協助建立整體開發規範及SOP。",
+          "使用Jira的基礎上，提出「制式命名、問題詳述」等方法，協助建立整體開發規範及SOP。",
       },
       {
         question: "初期兩個PG各自開發，缺乏共用組件的規劃",
         answer:
-          "中期擔任專案主責後，與資深PG討論，開始調整專案結構，整合重複內容，建立底層共用組件。",
+          "中期擔任專案主責，與資深PG討論，整合重複功能，建立底層共用組件。",
       },
     ],
   },
@@ -233,3 +233,4 @@ export const linkedinLink =
   "https://www.linkedin.com/in/jhih-jhen-lin-5a2b162b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
 export const iWowWebsite =
   "https://pelements.money-link.com.tw/iwow/iwowUS/iwow_index.html";
+export const portfolioLink = "https://drive.google.com/file/d/1y7NX2yDMA_yr_FDvUUs_2I7IQvCpKsKH/view?usp=sharing";

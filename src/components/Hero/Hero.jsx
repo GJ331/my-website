@@ -2,9 +2,8 @@ import { TypeAnimation } from "react-type-animation";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { motion } from "framer-motion";
 
-import { githubLink, linkedinLink } from "../../utils/data";
+import { githubLink, linkedinLink, portfolioLink } from "../../utils/data";
 import { fadeIn } from "../../utils/motion";
-import { downloadFile } from "../../utils/downloadFile";
 import profilePhoto from "../../assets/profile.png";
 import SkillBar from "./SkillBar";
 
@@ -51,7 +50,7 @@ const Hero = () => (
           viewport={{ once: false, amount: 0.7 }}
           className="flex flex-row gap-2 md:gap-6 items-center mt-4"
         >
-          <motion.button
+          <motion.a
             className="mainBtn"
             whileHover={{
               backgroundColor: "#0D2F3F",
@@ -59,10 +58,11 @@ const Hero = () => (
               color: "#F8F7F1",
             }}
             whileTap={{ scale: 0.95 }}
-            onClick={downloadFile}
+            target="_blank"
+            href={portfolioLink}
           >
             我的履歷
-          </motion.button>
+          </motion.a>
 
           <div className="flex flex-row gap-2 md:gap-6 text-primary text-5xl md:text-6xl">
             <motion.a
