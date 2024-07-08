@@ -196,7 +196,7 @@ export const projectExp = [
       {
         question: "因應客戶需求，需要畫面表格資料轉特定格式PDF下載需求",
         answer:
-          "應用html2canvas+jsPDF完成，並且為團隊建立基礎共用組件，為各專案都可以使用。",
+          "應用html2canvas + jsPDF完成，並且為團隊建立基礎共用組件，為各專案都可以使用。",
       },
       {
         question: "擔任專案駐點前端負責人，需與客戶討論畫面、功能呈現",

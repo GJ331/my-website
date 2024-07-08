@@ -12,7 +12,7 @@ const ProjectsExp = () => (
       {projectExp.map((pro, index) => (
         <div key={index} className="flex flex-col">
           <div className="flex justify-between">
-            <h1 className="text-2xl md:text-4xl font-bold text-mainBg mb-1 md:mb-3 tracking-wide">
+            <h1 className="text-2xl md:text-3xl font-bold text-mainBg mb-1 md:mb-3 tracking-wide">
               {pro.name}
             </h1>
             {pro.name.includes("iWow愛挖寶") && (
@@ -63,11 +63,11 @@ const ProjectsExp = () => (
 
             <hr className="my-3 md:my-5" />
 
-            <div className="flex flex-col md:flex-row gap-1 md:gap-5">
+            <div className="flex flex-col md:flex-row gap-1 md:gap-5 items-center md:items-start">
               <div className="font-semibold text-gray-700">開發難題</div>
               <div className="text-lg md:text-xl font-normal flex-1 text-content text-justify">
                 {pro.issues.map((issue, idx) => (
-                  <div key={idx} className="mb-3 leading-relaxed">
+                  <div key={idx} className="mb-1">
                       <div className="flex">
                         <strong className="text-center border-2 rounded-xl py-1 px-2 mt-2 md:my-1 md:mx-2 mr-0 md:mr-2 h-[50%] text-red-600">
                           Q

@@ -18,7 +18,7 @@ const SkillCard = () => (
             {el.technologies.map((tech, idx) => (
               <div key={idx} className="flex items-center space-x-2">
                 <span className="">{tech.icon}</span>
-                <span className="text-md md:text-xl text-content md:tracking-widest">
+                <span className="text-md md:text-lg text-content md:tracking-wide">
                   {tech.name}
                 </span>
               </div>
