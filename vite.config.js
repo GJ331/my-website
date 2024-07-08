@@ -5,7 +5,7 @@ import windiCSS from "vite-plugin-windicss";
 
 export default defineConfig({
   plugins: [react(), svgr(), windiCSS()],
-  base: "/MyWebsite",
+  base: "/my-website",
   server: { 
     port: 9000,
     open: true
