@@ -1,4 +1,5 @@
 {
+  "homepage": "https://gj331.github.io/MyWebsite",
   "name": "my-website",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predepoly": "npm run build",
+    "depoly": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +26,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "framer-motion": "^11.2.12",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "postcss-import": "^16.1.0",
     "postcss-nesting": "^12.1.5",
