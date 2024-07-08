@@ -20,7 +20,7 @@
   }
 
   .proBtn {
-    @apply btnBase text-content bg-mainBg border-content;
+    @apply cursor-pointer font-bold text-lg md:text-xl md:w-auto px-4 md:px-6 border-2 rounded-3xl tracking-wider text-content py-2 bg-mainBg border-content;
   }
 
   .skillImg {

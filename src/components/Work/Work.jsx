@@ -90,7 +90,7 @@ const Work = () => (
 
           <div className="flex-1 mt-4">
             <div className="rounded-full w-5 h-5 bg-circleGreen" />
-            <div className="mt-[80rem] sm:mt-[45rem] md:mt-[50rem] lg:mt-[59rem] 2xl::mt-[60rem]">
+            <div className="mt-[80rem] sm:mt-[45rem] md:mt-[50rem] lg:mt-[50rem]">
               <div className="rounded-full w-5 h-5 bg-circleRed" />
             </div>
           </div>

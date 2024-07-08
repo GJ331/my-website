@@ -169,8 +169,7 @@ export const projectExp = [
     subName: "- 前 / 後平台",
     content: ` 用於建構與管理微服務框架的平台。
       前台展示框架資訊及提供檔案下載，還有程式碼生成預覽功能。
-      後台作為系統管理，以及各項檔案上傳的功能。
-    `,
+      後台作為系統管理，以及各項檔案上傳的功能。`,
     tools:
       "Angular 12、PrimeNg、Scss、TypeScript、Rxjs、Quill.js、Ngx-highlightjs",
     issues: [
@@ -190,8 +189,7 @@ export const projectExp = [
     name: "▼ 外籍移工小額匯兌",
     subName: "- 後台管理系統",
     content: ` 用於管理移工匯兌APP的後台系統。
-      包含人員設定、查詢、審核、圖表顯示、內容上傳下載等功能。
-    `,
+      包含人員設定、查詢、審核、圖表顯示、內容上傳下載等功能。`,
     tools:
       "Angular 12、PrimeNg、Bootstrap、Scss、TypeScript、Rxjs、Pizzip、Chart.js、Html2canvas、jsPDF、File-saver、i18n",
     issues: [

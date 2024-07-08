@@ -13,7 +13,7 @@ const Hero = () => (
     className="w-full h-screen bg-mainBg flex flex-col justify-between mb-20"
   >
     <div className="grid md:grid-cols-2 max-w-[1240px] m-auto md:h-screen px-10 xl:px-0">
-      <div className="flex flex-col justify-center md:items-start w-full px-2 md:pt-8">
+      <div className="flex flex-col justify-center md:items-start w-full px-2 pt-20 md:pt-8">
         <TypeAnimation
           sequence={["Frontend Developer", 1000, "WEB DESIGNER", 1000]}
           speed={50}
@@ -26,7 +26,7 @@ const Hero = () => (
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-5xl md:text-7xl text-primary font-bold mb-3 md:mb-6 tracking-wide"
+          className="text-4xl md:text-7xl text-primary font-bold mb-3 md:mb-6 tracking-wide"
         >
           HELLO! 我是 <br />
           <span>林之蓁 KEN</span>
