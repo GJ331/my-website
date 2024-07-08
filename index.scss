@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  .btnBase {
+    @apply cursor-pointer font-bold text-lg md:text-xl md:w-auto px-4 py-2 md:py-4 md:px-6 border-2 rounded-3xl tracking-wider;
+  }
+
+  .mainBtn {
+    @apply btnBase text-primary border-primary;
+  }
+
+  .secondBtn {
+    @apply btnBase text-primary border-primary bg-mainBg;
+  }
+
+  .proBtn {
+    @apply btnBase text-content bg-mainBg border-content;
+  }
+
+  .skillImg {
+    @apply w-12 h-12 md:w-20 md:h-20;
+  }
+
+  .skillCardImg {
+    @apply w-12 h-12 md:w-16 md:h-16;
+  }
+}
