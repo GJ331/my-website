@@ -74,8 +74,8 @@ const Footer = () => (
         </motion.li>
       </ul>
     </div>
-    <p className="text-content text-center my-5">
-      Copyright © 2024 kEN.GJ All Rights Reserved.
+    <p className="text-sm text-content text-center my-5">
+      Copyright © 2024 KEN.GJ All Rights Reserved.
     </p>
   </div>
 );
