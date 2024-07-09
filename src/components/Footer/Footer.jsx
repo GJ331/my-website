@@ -10,7 +10,7 @@ import {
 } from "../../utils/data";
 
 const Footer = () => (
-  <div className="max-w-[1300px] px-10 mx-auto pt-8 text-sm md:text-lg">
+  <div className="max-w-[1300px] px-7 mx-auto pt-4 md:pt-8 text-sm md:text-lg">
     <div className="flex justify-between items-center">
       <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
         <motion.a
@@ -46,7 +46,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <ul className="flex flex-col md:flex-row items-end md:items-center font-semibold text-xl md:text-2xl text-center text-primary cursor-pointer">
+      <ul className="flex flex-col md:flex-row items-end md:items-center font-semibold text-base md:text-2xl text-center text-primary cursor-pointer">
         <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
           <Link
             to={menuLinks.ABOUT.to}

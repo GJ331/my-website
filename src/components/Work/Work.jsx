@@ -9,7 +9,7 @@ const Work = () => (
   <Section id="Work">
     <Title text="工作經驗 EXPERIENCE" additionalClass="text-primary" />
 
-    <div className="w-full mx-auto flex justify-center items-center px-10 xl:px-0">
+    <div className="w-full mx-auto flex justify-center items-center px-7 xl:px-0">
       <div className="w-full flex flex-col gap-6 relative justify-center items-center">
         {workExp.map((exp, i) => (
           <div

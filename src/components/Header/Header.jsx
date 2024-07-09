@@ -21,7 +21,7 @@ const Header = () => {
       className="fixed h-[60px] md:h-[80px] z-[500] w-screen bg-mainBg drop-shadow-xl"
       style={{ boxShadow: headerShadow }}
     >
-      <div className="max-w-[1300px] mx-auto flex justify-between items-center px-12 text-primary text-2xl font-medium w-full h-full">
+      <div className="max-w-[1300px] mx-auto flex justify-between items-center px-6 md:px-12 text-primary text-xl md:text-2xl font-medium w-full h-full">
         <motion.div
           className="cursor-pointer"
           whileHover={{ scale: 1.1 }}
@@ -66,7 +66,7 @@ const Header = () => {
         </ul>
 
         <div onClick={toggleNav} className="md:hidden z-50 text-primary">
-          {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+          {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
         </div>
 
         <motion.div
@@ -75,7 +75,7 @@ const Header = () => {
           variants={menuVariants}
           className="fixed top-0 right-0 w-full min-h-screen bg-gray-300 z-40"
         >
-          <ul className="font-semibold md:text-3xl space-y-2 md:space-y-8 mt-24 text-center cursor-pointer">
+          <ul className="font-semibold md:text-3xl space-y-4 md:space-y-8 mt-24 text-center cursor-pointer">
             <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
               <Link
                 to={menuLinks.ABOUT.to}

@@ -11,7 +11,7 @@ const About = () => (
   <Section id="About" bgClass="bg-content">
     <Title text="關於我 ABOUT ME" additionalClass="text-mainBg" />
 
-    <div className="flex flex-col xl:grid xl:grid-cols-3 xl:gap-28 px-10 xl:px-0">
+    <div className="flex flex-col xl:grid xl:grid-cols-3 xl:gap-28 px-7 xl:px-0">
       <div className="xl:col-span-2">
         <motion.div
           variants={fadeIn("left", 0.3)}

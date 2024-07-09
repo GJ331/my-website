@@ -12,7 +12,7 @@ const Hero = () => (
     id="Home"
     className="w-full h-screen bg-mainBg flex flex-col justify-between mb-20"
   >
-    <div className="grid md:grid-cols-2 max-w-[1240px] m-auto md:h-screen px-10 xl:px-0">
+    <div className="grid md:grid-cols-2 max-w-[1240px] m-auto md:h-screen px-7 xl:px-0">
       <div className="flex flex-col justify-center md:items-start w-full px-2 pt-20 md:pt-8">
         <TypeAnimation
           sequence={["Frontend Developer", 1000, "WEB DESIGNER", 1000]}
@@ -37,7 +37,7 @@ const Hero = () => (
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-xl md:text-2xl text-content font-semibold mb-3 md:mb-6 leading-tight max-w-[300px] md:max-w-[500px] text-justify"
+          className="text-base md:text-2xl text-content font-semibold mb-3 md:mb-6 leading-tight max-w-[300px] md:max-w-[500px] text-justify"
         >
           目前致力於透過程式碼打造良好網頁體驗的前端工程師，主要以 Angular + TS
           開發，已經在前端領域累積2年的經驗
@@ -64,7 +64,7 @@ const Hero = () => (
             我的履歷
           </motion.a>
 
-          <div className="flex flex-row gap-2 md:gap-6 text-primary text-5xl md:text-6xl">
+          <div className="flex flex-row gap-2 md:gap-6 text-primary text-4xl md:text-6xl">
             <motion.a
               target="_blank"
               href={githubLink}

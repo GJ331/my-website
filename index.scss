@@ -6,11 +6,11 @@
 
 @layer base {
   li {
-    @apply p-4;
+    @apply p-2 md:p-4;
   }
 
   .btnBase {
-    @apply cursor-pointer font-bold text-lg md:text-xl md:w-auto px-4 py-2 md:py-4 md:px-6 border-2 rounded-3xl tracking-wider;
+    @apply cursor-pointer font-bold text-sm md:text-xl md:w-auto px-4 py-2 md:py-4 md:px-6 border-2 rounded-3xl tracking-wider;
   }
 
   .mainBtn {
@@ -22,7 +22,7 @@
   }
 
   .proBtn {
-    @apply cursor-pointer font-bold text-lg md:text-xl md:w-auto px-4 md:px-6 border-2 rounded-3xl tracking-wider text-content py-2 bg-mainBg border-content;
+    @apply cursor-pointer font-bold text-sm md:text-xl md:w-auto px-4 md:px-6 border-2 rounded-3xl tracking-wider text-content py-2 bg-mainBg border-content;
   }
 
   .skillImg {
