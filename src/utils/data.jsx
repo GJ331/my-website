@@ -57,7 +57,10 @@ export const aboutSkills = [
         name: "Angular",
         icon: <DiAngularSimple className="skillCardImg text-red-600" />,
       },
-      { name: "Scss", icon: <DiSass className="skillCardImg text-pink-500" /> },
+      { 
+        name: "Scss", 
+        icon: <DiSass className="skillCardImg text-pink-500" /> 
+      },
       {
         name: "React",
         icon: <DiReact className="skillCardImg text-sky-500" />,
@@ -114,7 +117,7 @@ export const workExp = [
     roleColor: "text-circleGreen",
     projects: [
       {
-        title: "► LuzMi 微服務框架管理 - 前/後平台 (已上線)",
+        title: "► LuzMi 微服務框架管理 - 前/後平台",
         detail: `
           開發初期 (前端PG)
           (1) 參與功能流程的規劃，並產出前端UI設計彩稿。
@@ -128,7 +131,7 @@ export const workExp = [
         `,
       },
       {
-        title: "► 外籍移工小額匯兌 - 後台管理系統 (已上線)",
+        title: "► 外籍移工小額匯兌 - 後台管理系統",
         detail: `
           開發初期 (前端PG)
           (1) 與資深PG協作，開發後台畫面功能。
@@ -151,7 +154,7 @@ export const workExp = [
     roleColor: "text-circleRed",
     projects: [
       {
-        title: "► iWow愛挖寶 - Landing Page (已上線)",
+        title: "► iWow愛挖寶 - Landing Page",
         detail: `
           (1) 與企劃、UI設計師討論畫面呈現。
           (2) 負責網頁切版、RWD。
@@ -168,20 +171,17 @@ export const projectExp = [
     name: "▼ LuzMi 微服務框架管理",
     subName: "- 前 / 後平台",
     content: ` 用於建構與管理微服務框架的平台。
-      前台展示框架資訊及提供檔案下載，還有程式碼生成預覽功能。
-      後台作為系統管理，以及各項檔案上傳的功能。`,
-    tools:
-      "Angular 12、PrimeNg、Scss、TypeScript、Rxjs、Quill.js、Ngx-highlightjs",
+      前台展示框架資訊及提供檔案下載，與程式碼生成預覽功能。
+      後台作為系統管理，以及所需檔案的上傳功能。`,
+    tools: "Angular 12、PrimeNg、Scss、TypeScript、Rxjs、Quill.js、Ngx-highlightjs",
     issues: [
       {
         question: "前後端團隊首次合作，初期討論項目雜亂不清楚，經常耗費大量時間溝通",
-        answer:
-          "使用Jira的基礎上，提出「制式命名、問題詳述」等方法，協助建立整體開發規範及SOP。",
+        answer: "使用Jira的基礎上，提出「制式命名、問題詳述」等方法，協助建立整體開發規範及SOP。",
       },
       {
         question: "初期兩個PG各自開發，缺乏共用組件的規劃",
-        answer:
-          "中期擔任專案主責，與資深PG討論，整合重複功能，建立底層共用組件。",
+        answer: "中期擔任專案主責，與資深PG討論，整合重複功能，建立底層共用組件。",
       },
     ],
   },
@@ -190,13 +190,11 @@ export const projectExp = [
     subName: "- 後台管理系統",
     content: ` 用於管理移工匯兌APP的後台系統。
       包含人員設定、查詢、審核、圖表顯示、內容上傳下載等功能。`,
-    tools:
-      "Angular 12、PrimeNg、Bootstrap、Scss、TypeScript、Rxjs、Pizzip、Chart.js、Html2canvas、jsPDF、File-saver、i18n",
+    tools: "Angular 12、PrimeNg、Bootstrap、Scss、TypeScript、Rxjs、Pizzip、Chart.js、Html2canvas、jsPDF、File-saver、i18n",
     issues: [
       {
         question: "因應客戶需求，需要畫面表格資料轉特定格式PDF下載需求",
-        answer:
-          "應用html2canvas + jsPDF完成，並且為團隊建立基礎共用組件，為各專案都可以使用。",
+        answer: "應用html2canvas + jsPDF完成，並且為團隊建立基礎共用組件，為各專案都可以使用。",
       },
       {
         question: "擔任專案駐點前端負責人，需與客戶討論畫面、功能呈現",
@@ -212,14 +210,11 @@ export const projectExp = [
     issues: [
       {
         question: "首次把自學前端內容應用到實務，在處理RWD具有挑戰性",
-        answer:
-          "多方嘗試不同寫法、測試，以及與UI設計師討論，讓各版面的顯示如預期。",
+        answer: "多方嘗試不同寫法、測試，以及與UI設計師討論，讓各版面的顯示如預期。",
       },
       {
-        question:
-          "專案雖是html+css+js基本結構，但歷經不同時期迭代，內容已非常雜亂",
-        answer:
-          "重新整理專案原有架構，分類各區塊資料夾，並把舊有不需要的程式碼移除。",
+        question: "專案雖是html+css+js基本結構，但歷經不同時期迭代，內容已非常雜亂",
+        answer: "重新整理專案原有架構，分類各區塊資料夾，並把舊有不需要的程式碼移除。",
       },
     ],
   },
@@ -227,8 +222,6 @@ export const projectExp = [
 
 // Link
 export const githubLink = "https://github.com/GJ331";
-export const linkedinLink =
-  "https://www.linkedin.com/in/jhih-jhen-lin-5a2b162b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
-export const iWowWebsite =
-  "https://pelements.money-link.com.tw/iwow/iwowUS/iwow_index.html";
+export const linkedinLink = "https://www.linkedin.com/in/jhih-jhen-lin-5a2b162b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
+export const iWowWebsite = "https://pelements.money-link.com.tw/iwow/iwowUS/iwow_index.html";
 export const portfolioLink = "https://drive.google.com/file/d/1y7NX2yDMA_yr_FDvUUs_2I7IQvCpKsKH/view?usp=sharing";

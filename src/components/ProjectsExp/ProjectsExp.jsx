@@ -6,7 +6,7 @@ import { Title } from "../../utils/title";
 
 const ProjectsExp = () => (
   <Section id="ProjectsExp" bgClass="bg-content">
-    <Title text="專案介紹 PROJECT" additionalClass="text-mainBg" />
+    <Title text="專案參與 PROJECTS" additionalClass="text-mainBg" />
 
     <div className="grid xl:grid-cols-3 gap-4 xl:gap-8 px-10 xl:px-0">
       {projectExp.map((pro, index) => (
